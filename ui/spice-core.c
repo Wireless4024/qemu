@@ -54,7 +54,7 @@ struct SpiceTimer {
     QEMUTimer *timer;
 };
 
-#define DEFAULT_MAX_REFRESH_RATE 30
+#define DEFAULT_MAX_REFRESH_RATE 250
 
 static SpiceTimer *timer_add(SpiceTimerFunc func, void *opaque)
 {
